@@ -1,11 +1,16 @@
 package Recursion2;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Subset {
     public static void main(String[] args) {
-        String str = "abc";
-        System.out.println(listSubset("", str));
+        String str = "bca";
+        System.out.println();
+        ArrayList<String> list = listSubset("", str);
+        Collections.sort(list);
+        System.out.println(list);
     }
 
     static void printSubset(String p, String up) {

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Permutation {
     public static void main(String[] args) {
         // permutations("", "abc");
-        System.out.println(permutationsList("", "abc"));
+        System.out.println(permutationsList("", "nitin"));
     }
 
     static void permutations(String p, String up) {
